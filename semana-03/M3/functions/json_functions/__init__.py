@@ -41,7 +41,7 @@ def get_json(nome_arquivo):
 
 def atualizar_quantidade(nome_arquivo):
     solicitacoes = get_json(nome_arquivo)
-    quantidade_solicitacoes = int(solicitacoes[0]["soliciatacoes_quant"])
-    quantidade_solicitacoes += 1
-    solicitacoes[0]["soliciatacoes_quant"] = str(quantidade_solicitacoes)
-    salvar_json(nome_arquivo, solicitacoes)
+    solicitacoes[0]["solicitacoes_quant"] += 1
+
+    with open(nome_arquivo, "w", encoding="utf-8") as arquivo:
+        json.dump(solicitacoes, arquivo, indent=4, ensure_ascii=False) 

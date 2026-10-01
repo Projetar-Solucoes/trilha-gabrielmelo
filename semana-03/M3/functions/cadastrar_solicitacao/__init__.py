@@ -6,7 +6,7 @@ from functions.json_functions import *
 def cadastrar_solicitacao():
     ano = date.today().year
     lista = get_json("solicitacoes.json")
-    cont = len(lista) + 1
+    cont = lista[0]["solicitacoes_quant"] + 1
     nome = testar_vazio("Digite seu nome: ")
     quantidade_categoria_p_urgente = 0
     quantidade_categoria_m_urgente = 0
