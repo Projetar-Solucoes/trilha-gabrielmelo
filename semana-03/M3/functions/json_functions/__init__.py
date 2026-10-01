@@ -26,7 +26,7 @@ def listar_solicitacoes_format(nome_arquivo):
     with open(nome_arquivo, 'r', encoding='utf-8') as arquivo:
         dados = json.load(arquivo)
 
-    for dado in dados:
+    for dado in dados[1:]:
         print("-=" * 50)
         for key, item in dado.items():
             print(f"{key} - {item}")

@@ -24,7 +24,7 @@ while True:
         
 
     elif opcao_estatistica == 2:
-        print(f"Quantidade de Solicitações {cont}")
+        listar_solicitacoes_format("solicitacoes.json")
         continue
 
     elif opcao_estatistica == 3:
