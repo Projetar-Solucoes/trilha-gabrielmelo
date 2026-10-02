@@ -21,7 +21,7 @@ def exibir_estatisticas():
     print("| Digite 1 para - Cadastar nova solicitação           |")
     print("| Digite 2 para - Listar solicitações                 |")
     print("| Digite 3 para - Exibir quantidade de categorias     |")
-    print("| Digite 4 para - Listar solicitações                 |")
+    print("| Digite 4 para - Proucurar Solicitação               |")
     print("| Digite 5 para - Sair                                |")
     print("="*50)
 

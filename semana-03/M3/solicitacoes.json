@@ -1,6 +1,6 @@
 [
     {
-        "solicitacoes_quant": 3
+        "solicitacoes_quant": 4
     },
     {
         "protocolo": "2026-0001-GM",
@@ -22,6 +22,14 @@
         "protocolo": "2026-0003-GM",
         "nome": "Gabriel Melo",
         "setor": "Desenvolvimento de Aplicativos",
+        "categoria": "Muito Urgente",
+        "assunto": "Não",
+        "descrição": "Sim"
+    },
+    {
+        "protocolo": "2026-0004-GL",
+        "nome": "Gabriel Lima",
+        "setor": "Design e Identidade Visual",
         "categoria": "Muito Urgente",
         "assunto": "Não",
         "descrição": "Sim"

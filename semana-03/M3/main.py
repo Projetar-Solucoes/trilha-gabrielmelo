@@ -5,6 +5,7 @@ from functions.verificar_entrada_dados import *
 from functions.json_functions import *
 from functions.cadastrar_solicitacao import *
 from functions.contar_categoria import *
+from functions.buscar_solicitacao import *
 
 cont = 0
 
@@ -33,7 +34,7 @@ while True:
         continue
 
     elif opcao_estatistica == 4:
-        listar_solicitacoes_format("solicitacoes.json")
+        buscar_solicitacao("solicitacoes.json")
         
         continue
 
