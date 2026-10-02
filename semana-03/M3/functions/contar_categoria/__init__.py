@@ -5,7 +5,7 @@ def contar_categoria(arquivo):
     quant_pouco_urg = 0
     quant_urg = 0
     quant_muito_urg = 0
-    for itens in lista[:1]:
+    for itens in lista[1:]:
         if itens["categoria"] == "Pouco Urgente":
             quant_pouco_urg += 1
         elif itens["categoria"] == "Urgente":
