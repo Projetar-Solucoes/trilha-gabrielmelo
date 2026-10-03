@@ -25,10 +25,3 @@ def exibir_estatisticas():
     print("| Digite 5 para - Sair                                |")
     print("="*50)
 
-def exibir_quantidade_categoria():
-    print("selecione a estastisca que você deseja")
-    print("="*55)
-    print("| Digite 1 para - Exibir pouco Urgente                |")
-    print("| Digite 2 para - Exibir Urgente                      |")
-    print("| Digite 3 para - Exibir muito Urgente                |")
-    print("="*55)
