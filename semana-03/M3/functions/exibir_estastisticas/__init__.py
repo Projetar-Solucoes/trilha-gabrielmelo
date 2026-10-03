@@ -23,7 +23,7 @@ def exibir_estastisticas(arquivo):
             quant_criacao_site += 1
         elif itens["setor"] == "Design e Identidade Visual":
             quant_design += 1
-        elif itens["setor"] == "Reparo de Computadores ":
+        elif itens["setor"] == "Reparo de Computadores":
             quant_reparo += 1
         else:
            quant_desv_app += 1

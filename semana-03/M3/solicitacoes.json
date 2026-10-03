@@ -1,6 +1,6 @@
 [
     {
-        "solicitacoes_quant": 4
+        "solicitacoes_quant": 5
     },
     {
         "protocolo": "2026-0001-GM",
@@ -30,6 +30,14 @@
         "protocolo": "2026-0004-GL",
         "nome": "Gabriel Lima",
         "setor": "Design e Identidade Visual",
+        "categoria": "Muito Urgente",
+        "assunto": "Não",
+        "descrição": "Sim"
+    },
+    {
+        "protocolo": "2026-0005-GM",
+        "nome": "Gabriel Melo",
+        "setor": "Reparo de Computadores",
         "categoria": "Muito Urgente",
         "assunto": "Não",
         "descrição": "Sim"
