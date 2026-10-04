@@ -1,11 +1,10 @@
-from datetime import date
-ano = date.today().year
 from functions.exibir_menus import *
 from functions.verificar_entrada_dados import *
 from functions.json_functions import *
 from functions.cadastrar_solicitacao import *
 from functions.exibir_estastisticas import *
 from functions.buscar_solicitacao import *
+from time import sleep
 
 cont = 0
 
@@ -16,9 +15,11 @@ print("="*30)
 print("BEM-VINDO A BACK BITE")
 print("="*30)
 
-while True:
+criar_json("solicitacoes.json")
+print("carregando...")
+sleep(3)
 
-    criar_json("solicitacoes.json")
+while True:
     opcao_estatistica = verificar_opcoes(exibir_estatisticas, 1, 2, 3, 4, 5)
     if opcao_estatistica == 1:
         cadastrar_solicitacao()
