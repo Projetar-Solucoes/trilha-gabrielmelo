@@ -31,7 +31,7 @@ def exibir_estastisticas(arquivo):
     print(f"""
 === ESTATÍSTICAS === 
 
-Total de solicitações: {lista[0]['solicitacoes_quant']}
+Total de solicitações: {lista[0]['quantidade_solicitacoes']}
 
 Por prioridade:
 Pouco Urgente: {quant_pouco_urg}

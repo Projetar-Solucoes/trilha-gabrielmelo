@@ -18,8 +18,8 @@ print("="*30)
 
 while True:
 
+    criar_json("solicitacoes.json")
     opcao_estatistica = verificar_opcoes(exibir_estatisticas, 1, 2, 3, 4, 5)
-    
     if opcao_estatistica == 1:
         cadastrar_solicitacao()
         atualizar_quantidade("solicitacoes.json")
