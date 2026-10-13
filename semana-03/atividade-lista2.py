@@ -27,3 +27,5 @@ print('=' * 20)
 for i in personagem:
     print(f"{i}")
 
+print("sla")
+
