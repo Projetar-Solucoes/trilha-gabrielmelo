@@ -1,0 +1,24 @@
+Atividade – KNN ou K-Means?
+Disciplina: Introdução à Inteligência Artificial
+Objetivo: Analisar situações do cotidiano e identificar qual algoritmo, KNN ou K-Means, é mais adequado para resolver cada problema.
+Instrução: Leia cada situação e indique o algoritmo mais apropriado, justificando brevemente sua escolha.
+
+1. Situação 1 – Plataforma de streaming
+Uma plataforma de filmes possui informações sobre os gêneros assistidos, o tempo de visualização e as preferências dos usuários. A empresa deseja descobrir grupos de pessoas com hábitos semelhantes, sem definir antecipadamente quais são esses grupos.
+R:K-MEANS, pois o K-Means tem como objetivo agrupar dados em grupos e como a plataforma quer agrupar seus usuários ele se encaixa melhor com o K-Means.
+
+2. Situação 2 – Diagnóstico de doenças
+Um hospital possui registros de pacientes com informações sobre exames, idade e sintomas. Cada registro já informa se o paciente recebeu um diagnóstico positivo ou negativo para determinada doença. O hospital deseja estimar a classificação de um novo paciente com base em pacientes semelhantes.
+R:KNN, pois o KNN é um algoritmo que classifca um novo dado baseado em dados já classificados, ou seja se o hospital quer classificar um novo paciente baseado em pacientes já classificados ele se encaixa melhor com o KNN.
+
+3. Situação 3 – Agricultura inteligente
+Uma fazenda utiliza sensores para medir a umidade do solo, a temperatura e os nutrientes em diferentes áreas. O agricultor deseja separar automaticamente essas áreas em grupos com características semelhantes para planejar a irrigação, sem possuir categorias previamente definidas.
+R:K-MEANS, pois a fazenda quer agrupar as áreas com características semelhantes.
+
+4. Situação 4 – Detecção de mensagens indesejadas
+Um serviço de e-mail possui milhares de mensagens previamente identificadas como spam ou legítimas. Ao receber uma nova mensagem, deseja classificá-la em uma dessas duas categorias usando a semelhança com mensagens anteriores.
+R:KNN, pois ele vai se basear em mensagens já classificadas para classificar uma nova mensagem.
+
+5. Situação 5 – Organização de estudantes
+Uma escola possui dados sobre o desempenho de seus estudantes em Matemática, Português e Ciências. A coordenação deseja identificar perfis de desempenho semelhantes, sem estabelecer antecipadamente categorias como baixo, médio ou alto rendimento.
+R:K-MEANS, pois a escola quer agrupar os estudantes com perfis de desempenho semelhantes.
