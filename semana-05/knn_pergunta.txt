@@ -1,0 +1,4 @@
+ Quais as limitações observadas no modelo knn?
+Ele se torna muito lento para conjuntos grandes já que precisa calcular a distância entre os pontos.
+Ele pode ser enviesado pois se a distribuição dos dados não for parecicido ele pode favorecer uma classe em relação a outra.
+Ele pode dar problema na classificação caso algum dado seja irrelevante para determinado problema.
