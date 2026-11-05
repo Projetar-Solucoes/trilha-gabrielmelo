@@ -1,0 +1,11 @@
+1. O que significa K? 
+R: O K representa o número de grupos que queremos formar a partir dos dados. Esses grupos também podem ser chamado de clusters.
+
+2. Explique os dois passos que o K-Means repete: distribuir pontos e atualizar centros.
+R: No K-Means é escolhido primeiramente K pontos onde cada um é o centro de um grupo. Após isso, cada dado do conjunto maior é atribuido ao ponto, definido por K, que estiver mais próximo. Após isso a posição de cada ponto central é recalculada baseada na média das coooienadas dos pontos que foram atribuídos a ele. Esse processo é repetido até que os pontos centrais não tenham uma mudança significativa nas sua coordenadas.
+
+3. O que é um centroide? Ele precisa ser um dos pontos originais?
+R:O centroide é o ponto que representa o centro de um cluster. Ele não precisa ser um dos pontos originais.
+
+4. Por que o K-Means é chamado de aprendizado não supervisionado? Recebemos grupos corretos como resposta durante o treinamento?
+R: O K-Means não é um aprendizado supervisonado pois não recebe nenhum dado de resposta durante o treinamento. Ele agrupa os dados baseado em suas propriedades e não em respostas.
